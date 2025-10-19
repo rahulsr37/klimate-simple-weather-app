@@ -5,7 +5,7 @@ import type {
   ForecastResponse,
   GeocodingResponse,
   ReverseGeocodingResponse,
-} from "./types";
+} from "./types.ts";
 
 class WeatherAPI {
   private createUrl(endpoint: string, params: Record<string, string | number>) {
